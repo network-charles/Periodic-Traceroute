@@ -4,7 +4,7 @@
 # A Calendar date variable is created
 date=$(date)
 
-echo --------------------------------------------------------
+echo -------------------------------------------------------- >> MTN-to-Airtel.txt
 
 # The date is outlined
 echo Doing traceroute at $date >> MTN-to-Airtel.txt
