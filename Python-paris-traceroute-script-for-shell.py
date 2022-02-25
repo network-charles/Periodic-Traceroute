@@ -7,7 +7,7 @@ def pinger():
     subprocess.call([r'sh', './shell.sh'])
 
 # Here I try to run the code three times using a "for loop" concept.
-for number_of_runs in range(3):
+for number_of_runs in range(10):
     # Here I specify that when the batchh script runs the first time, it shows an 
     # an output specifying the first one has ran successfully, etc.
     if number_of_runs == 0:
@@ -37,4 +37,8 @@ for number_of_runs in range(3):
     elif number_of_runs == 8:
         pinger()
         print('Nineth Paris Traceroute has been completed')
+    elif number_of_runs == 9:
+        pinger()
+        print('Tenth Paris Traceroute has been completed')
+        
     
